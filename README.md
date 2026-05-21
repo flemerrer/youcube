@@ -1,59 +1,126 @@
-# NgProject
+<a id="readme-top"></a>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.11.
+<!-- PROJECT SHIELDS -->
+[![Unlicense License][license-shield]][license-url]
+[![Angular][Angular.io]][Angular-url]
 
-## Development server
 
-To start a local development server, run:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="">
+    <img src="" alt="Add a cool logo here" width="80" height="80">
+  </a>
 
-```bash
-ng serve
-```
+<h3 align="center">Best-README-Template</h3>
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+  <p align="center">Summary</p>
+</div>
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-```bash
-ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-```bash
-ng generate --help
-```
+This is a small Angular project that I made for discovery and learning the latest design patterns used in the newer versions. 
 
-## Building
+[![Product Name Screen Shot][product-screenshot]]()
 
-To build the project run:
+<div align="center">
+<a href="http://www.freepik.com">Cool placeholder designed by fullvector (Freepik)</a>
+</div>
 
-```bash
-ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Running unit tests
+To get a local copy up and running follow these simple example steps.
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+### Prerequisites
 
-```bash
-ng test
-```
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-## Running end-to-end tests
+### Installation
 
-For end-to-end (e2e) testing, run:
+// TODO
 
-```bash
-ng e2e
-```
+<!-- USAGE EXAMPLES -->
+## Usage
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+// TODO
 
-## Additional Resources
+<!-- ROADMAP -->
+## Roadmap
+- [X] Basic authentication
+- [X] Basic routing
+- [X] Add README
+- [ ] login validators
+- [ ] user profile page and guards
+- [ ] videos list
+- [ ] videos search
+- [ ] reactive search form (rxjs)
+- [ ] add / remove videos to and from playlist
+- [ ] reorder playlist with drag and drop
+- [ ] better styling
+- [ ] Complete README, especially usage
+- [ ] mini backend json-server or else
+- [ ] lecture de vidéos
+- [ ] Multi-language Support
+    - [ ] English 
+    - [ ] French
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+<!-- LICENSE -->
+## License
+
+Distributed under the Unlicense License. See `LICENSE.txt` for more information.
+
+
+<!-- CONTACT -->
+## Contact
+
+François Le Merrer - francois.lemerrer@proton.me
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [othneildrew best readme template](https://github.com/othneildrew/Best-README-Template)
+* [Choose an Open Source License](https://choosealicense.com)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[product-screenshot]: public/neon-computer-by-fullvector.jpg
