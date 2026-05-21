@@ -1,0 +1,17 @@
+<nav>
+  <div routerLink="/" class="logo-box link">
+    <img id="logo" src="/YouTube_icon_(2017).svg" alt="logo_youcube"/>
+    <h1>YouCube</h1>
+  </div>
+  <div class="search-box">
+    <input type="search" placeholder="Search video">
+  </div>
+  <div class="user-profile">
+    @if(isLoggedIn()) {
+      <h2>{{currentUser()?.username}}</h2>
+      <button (click)="logout()">Log Out</button>
+    } @else {
+      <button routerLink="login">Connexion</button>
+    }
+  </div>
+</nav>

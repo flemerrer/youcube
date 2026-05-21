@@ -1,0 +1,14 @@
+<app-empty-nav/>
+<div class="signin">
+<form [formGroup]="register" (ngSubmit)="handleSubmit()">
+  <label for="username">
+    Username:
+    <input formControlName="username" id="username" type="text" />
+  </label>
+  <label for="password">
+    Password:
+    <input formControlName="password" id="password" type="password" />
+  </label>
+  <button type="submit">Register</button>
+</form>
+</div>

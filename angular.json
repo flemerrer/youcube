@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "ng_project": {
+    "youcube": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": {
@@ -81,10 +81,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ng_project:build:production"
+              "buildTarget": "youcube:build:production"
             },
             "development": {
-              "buildTarget": "ng_project:build:development"
+              "buildTarget": "youcube:build:development"
             }
           },
           "defaultConfiguration": "development"

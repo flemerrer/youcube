@@ -1,0 +1,11 @@
+main {
+    display: grid;
+    min-height: 800px;
+    grid-template-columns: 200px 1fr;
+    margin: 0 1rem;
+}
+
+.sidenav {
+    background: #f3f3f3;
+}
+
