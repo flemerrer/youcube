@@ -1,0 +1,9 @@
+#videos-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.video {
+    min-height: 150px;
+    display: grid;
+}

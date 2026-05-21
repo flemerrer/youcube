@@ -1,4 +1,7 @@
-export type User = {
-  username: string;
-  password: string;
+import { Video } from './video';
+
+export type Playlist = {
+  id: number;
+  name: string;
+  videos: Video[];
 }

@@ -1,11 +1,9 @@
 <app-navigation/>
 <main>
-  <div class="sidenav">
-    @for (playlist of playlists(); track playlist.id) {
-
-    }
+  <div id="sidenav">
+    <app-sidenav/>
   </div>
-  <div class="content">
-    <router-outlet></router-outlet>
+  <div id="content">
+    <router-outlet/>
   </div>
 </main>

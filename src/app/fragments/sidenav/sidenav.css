@@ -1,0 +1,14 @@
+#menu {
+    height: 100%;
+    background-color: #f6f6f6;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.sidenav-list {
+    padding: 1rem 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}

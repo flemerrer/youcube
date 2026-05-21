@@ -4,11 +4,11 @@
     <h1>YouCube</h1>
   </div>
   <div class="search-box">
-    <input type="search" placeholder="Search video">
+    <input type="search" placeholder="Search videos">
   </div>
   <div class="user-profile">
     @if(isLoggedIn()) {
-      <h2>{{currentUser()?.username}}</h2>
+      <h4>{{currentUser()?.username}}</h4>
       <button (click)="logout()">Log Out</button>
     } @else {
       <button routerLink="login">Connexion</button>
