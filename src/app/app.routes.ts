@@ -2,14 +2,16 @@ import { Routes } from '@angular/router';
 import { Main } from './pages/main/main';
 import { Login } from './pages/login/login';
 import { Register } from './pages/register/register';
-import { PlaylistItem } from './fragments/playlist/playlist';
+import { PlaylistFragment } from './fragments/playlist/playlist';
 import { Home } from './fragments/home/home';
+import { VideoFragment } from './fragments/video/video';
 
 export const routes: Routes = [
   { path: '', component: Main, children: [{ path: '', component: Home }]},
   { path: 'login', component: Login },
   { path: 'register', component: Register },
-  { path: 'playlist/:id', component: Main, children: [{ path: '', component: PlaylistItem }]},
+  { path: 'playlist/:id', component: Main, children: [{ path: '', component: PlaylistFragment }]},
+  { path: 'video/:id', component: Main, children: [{ path: '', component: VideoFragment }]},
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 

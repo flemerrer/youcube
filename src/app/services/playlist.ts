@@ -14,17 +14,20 @@ export class Playlists {
         {
           id: 7484,
           name: "Farting Dog 006",
-          url: ""
+          url: "",
+          description: ""
         },
         {
           id: 7485,
           name: "Farting Dog 007",
-          url: ""
+          url: "",
+          description: ""
         },
         {
           id: 7486,
           name: "Farting Dog 008",
-          url: ""
+          url: "",
+          description: ""
         },
       ]
     },
@@ -35,17 +38,20 @@ export class Playlists {
         {
           id: 2584,
           name: "Orange Cats Compilation",
-          url: ""
+          url: "",
+          description: ""
         },
         {
           id: 2585,
           name: "Tuxedos are built different",
-          url: ""
+          url: "",
+          description: ""
         },
         {
           id: 2586,
           name: "Cats falling like idiots",
-          url: ""
+          url: "",
+          description: ""
         },
       ]
     },
@@ -56,27 +62,32 @@ export class Playlists {
         {
           id: 1367,
           name: "DA read the Bible 2 - part 1",
-          url: ""
+          url: "",
+          description: ""
         },
         {
           id: 1368,
           name: "DA read the Bible 2 - part 2",
-          url: ""
+          url: "",
+          description: ""
         },
         {
           id: 1369,
           name: "DA read the Bible 2 - part 3",
-          url: ""
+          url: "",
+          description: ""
         },
         {
           id: 1370,
           name: "DA read the Bible 2 - part 4",
-          url: ""
+          url: "",
+          description: ""
         },
         {
           id: 1371,
           name: "DA read the Bible 2 - part 5",
-          url: ""
+          url: "",
+          description: ""
         },
       ]
     }

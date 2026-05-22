@@ -11,7 +11,7 @@
       <div hidden id="search-results">
       <ul>
       @for (video of searchResults(); track video.id) {
-        <li><span>&#128269;</span><a routerLink="/video/{{video.id}}">{{video.name}}</a></li>
+        <li><a routerLink="/video/{{video.id}}" (click)="clearResults()"><span>&#128269;</span>{{video.name}}</a></li>
       }
       </ul>
     </div>

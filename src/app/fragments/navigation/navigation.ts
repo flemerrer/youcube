@@ -35,7 +35,7 @@ export class Navigation {
     this.searchControl.valueChanges.pipe(
       debounceTime(300),
       distinctUntilChanged(),
-      filter(q => q ? q.length > 3  : false),
+      filter(q => q ? q.length > 2  : false),
       //TODO: remove when functional
       tap(() => console.log(`searched for ${this.searchControl.value}`)),
       switchMap(q =>
@@ -52,5 +52,9 @@ export class Navigation {
           popover.hidden = false;
         }
       }})
+  }
+
+  clearResults() {
+    this.searchResults.set([])
   }
 }

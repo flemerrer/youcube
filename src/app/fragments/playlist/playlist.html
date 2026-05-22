@@ -1,8 +1,8 @@
 <h3>{{playlist().name}}</h3>
 <div id="videos-list">
   @for (video of playlist().videos; track video.id) {
-    <div class="video">
-      <img alt="" src="/miniature.png" />
+    <div class="video" routerLink="/video/{{video.id}}">
+      <img alt="miniature video {{video.name}}" src="/miniature.png" />
       <h5>{{video.name}}</h5>
       <p>description</p>
     </div>

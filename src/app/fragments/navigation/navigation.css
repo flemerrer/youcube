@@ -58,6 +58,7 @@ input {
     background: white;
     border-radius: 10px;
     filter: var(--card-shadow);
+    padding: 0 .5rem;
 }
 
 
