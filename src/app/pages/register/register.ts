@@ -15,6 +15,9 @@ export class Register  implements OnInit {
     if (this.userService.currentUser != null) {this.router.navigate(['/']);}
   }
 
+  //TODO: Duplication between login and register components
+  // Find a way to merge them; from paramMap ?
+
   private readonly router = inject(Router);
   private readonly userService = inject(Users);
 

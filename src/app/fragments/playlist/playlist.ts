@@ -1,6 +1,5 @@
 import { Component, inject, signal, WritableSignal } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { map, Observable } from 'rxjs';
 import { Playlists } from '../../services/playlist';
 import { Playlist } from '../../models/playlist';
 

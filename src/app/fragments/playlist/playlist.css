@@ -1,9 +1,15 @@
 #videos-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
 }
 
 .video {
     min-height: 150px;
     display: grid;
+    gap: .5rem;
+}
+
+h3 {
+    margin-bottom: 1rem;
 }

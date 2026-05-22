@@ -3,7 +3,7 @@
   <ul class="sidenav-list">
     <li><a routerLink="/">Home</a></li>
   </ul>
-  <h2>Playlists</h2>
+  <h2>Your Playlists</h2>
   <ul class="sidenav-list">
     @for (playlist of playlists(); track playlist.id) {
       <li><a routerLink="/playlist/{{playlist.id}}">{{playlist.name}}</a></li>

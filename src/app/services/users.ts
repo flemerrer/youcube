@@ -1,4 +1,4 @@
-import { computed, Injectable, signal } from '@angular/core';
+import { computed, Injectable, Signal, signal } from '@angular/core';
 import { User } from '../models/user';
 
 @Injectable({
@@ -10,8 +10,8 @@ export class Users {
   }
 
   private readonly currentUserSignal = signal<Partial<User> | null>(null);
-  public isAuthenticated = computed(() => this.currentUserSignal() !== null);
-  public currentUser = computed(() => this.currentUserSignal());
+  public isAuthenticated: Signal<boolean> = computed(() => this.currentUserSignal() !== null);
+  public currentUser: Signal<Partial<User>|null> = computed(() => this.currentUserSignal());
 
   register(newUser: User): boolean {
     if (!this.getUserByUsername(newUser.username)) {
