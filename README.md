@@ -80,17 +80,18 @@ To get a local copy up and running follow these simple example steps.
 - [X] Basic authentication
 - [X] Basic routing
 - [X] Add README
-- [ ] login validators
-- [ ] user profile page and guards
-- [ ] videos list
-- [ ] videos search
-- [ ] reactive search form (rxjs)
-- [ ] add / remove videos to and from playlist
-- [ ] reorder playlist with drag and drop
-- [ ] better styling
+- [X] Reactive video search form (rxjs)
+- [ ] Add mini backend json-server or else
+- [ ] Home w/ latest videos
+- [ ] User profile page (guarded)
+- [ ] User playlists
+- [ ] Form validators
+- [ ] Add / remove videos to and from playlist feature
+- [ ] Video player
+- [ ] Add shimmers for loading images / videos
+- [ ] Better styling and mobile sidenav
+- [ ] Reorder playlist with drag and drop
 - [ ] Complete README, especially usage
-- [ ] mini backend json-server or else
-- [ ] lecture de vidéos
 - [ ] Multi-language Support
     - [ ] English 
     - [ ] French
