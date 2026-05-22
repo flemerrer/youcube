@@ -18,8 +18,27 @@ nav {
     max-width: 50px;
 }
 
-.search-box {
+#search-box {
     width: clamp(200px, 50%, 500px);
+    position: relative;
+}
+
+#search-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#search-bar button {
+    background: steelblue;
+    border-color: steelblue;
+    color: white;
+}
+
+#search-bar button:active {
+    background: lightgrey;
+    border-color: lightgrey;
+    color: lightgrey;
 }
 
 input {
@@ -29,6 +48,37 @@ input {
     width: 100%;
     margin-bottom: 1px;
 }
+
+#search-results {
+    position:absolute;
+    top: 100%;
+    left:0;
+    width: 85%;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    filter: var(--card-shadow);
+}
+
+
+#search-results li {
+    margin: .5rem 0;
+    padding: .5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border-radius: 5px;
+}
+
+#search-results a {
+    color: black;
+    text-decoration: none;
+}
+
+#search-results li:hover {
+    background: #f6f6f6;
+}
+
 
 .user-profile {
     display: flex;

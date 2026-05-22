@@ -3,8 +3,18 @@
     <img id="logo" src="/YouTube_icon_(2017).svg" alt="logo_youcube"/>
     <h1>YouCube</h1>
   </div>
-  <div class="search-box">
-    <input type="search" placeholder="Search videos">
+  <div id="search-box">
+    <div id="search-bar">
+    <input type="search" [formControl]="searchControl" placeholder="Search videos">
+    <button id="search-btn">&#128269;</button>
+    </div>
+      <div hidden id="search-results">
+      <ul>
+      @for (video of searchResults(); track video.id) {
+        <li><span>&#128269;</span><a routerLink="/video/{{video.id}}">{{video.name}}</a></li>
+      }
+      </ul>
+    </div>
   </div>
   <div class="user-profile">
     @if(isLoggedIn()) {
