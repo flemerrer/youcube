@@ -12,7 +12,7 @@ import { EmptyNav } from '../../fragments/empty_nav/empty-nav';
 })
 export class Login implements OnInit {
   ngOnInit(): void {
-    if (this.userService.currentUser != null) {this.router.navigate(['/']);}
+    if (this.userService.currentUser() != null) {this.router.navigate(['/']);}
   }
 
   private readonly router = inject(Router);
